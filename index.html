@@ -1,0 +1,355 @@
+<!-- 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ai Agent</title>
+    </head>
+    <body>
+        <h2>Talk to Ai Agent</h2>
+        <form method="POST">
+            <textarea name="user_input" rows="5" cols="40" placeholder="Ask me anything"></textarea><br>
+
+            
+            <button type="Submit">Send</button>
+        </form>
+        {% if response %}
+             <h3>AI response</h3>
+             <p>{{response}}</p>
+        {% endif %}     
+
+    </body>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Agent</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h2 {
+            color: #00796b;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 500px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #b2dfdb;
+            resize: none;
+            font-size: 16px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #009688;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #00796b;
+        }
+
+        h3 {
+            margin-top: 30px;
+            color: #004d40;
+        }
+
+        p {
+            background-color: #e0f2f1;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 500px;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <h2>Talk to AI Agent</h2>
+    <form method="POST">
+        <textarea name="user_input" rows="5" placeholder="Ask me anything..."></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+
+    {% if response %}
+        <h3>AI Response</h3>
+        <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html> -->
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI ASSISTANT DEVELOPMENT </title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            text-align: center;
+            padding: 40px;
+        }
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .agent-icon {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        textarea {
+            width: 90%;
+            height: 120px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            resize: none;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="agent-icon">🤖</div>
+    <h2>Welcome to AI Agent</h2>
+    <form method="POST">
+        <textarea name="user_input" placeholder="Ask anything..."></textarea><br>
+        <button type="submit">Talk to AI</button>
+    </form>
+</body>
+</html> -->
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI ASSISTANT DEVELOPMENT</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            text-align: center;
+            padding: 40px;
+        }
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .agent-icon {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        textarea {
+            width: 90%;
+            height: 120px;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            resize: none;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .response-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="agent-icon">🤖</div>
+    <h2>Welcome to AI Agent</h2>
+    <form method="POST">
+        <textarea name="user_input" placeholder="Ask anything..."></textarea><br>
+        <button type="submit">Talk to AI</button>
+    </form>
+
+    {% if response %}
+        <div class="response-box">
+            <h3>AI Response:</h3>
+            <p>{{ response }}</p>
+        </div>
+    {% endif %}
+</body>
+</html> -->
+
+
+
+<!-- with summarize -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI ASSISTANT DEVELOPMENT</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            text-align: center;
+            padding: 40px;
+        }
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .agent-icon {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+        form {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        textarea, select {
+            width: 90%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+        }
+        textarea {
+            height: 120px;
+            resize: none;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .response-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="agent-icon">🤖</div>
+    <h2>Welcome to AI Agent</h2>
+    <form method="POST">
+        <textarea name="user_input" placeholder="Ask or enter text here...">{{ user_input }}</textarea><br>
+
+        <select name="task">
+            <option value="qa" {% if selected_task == 'qa' %}selected{% endif %}>Answer a Question</option>
+            <option value="summarize" {% if selected_task == 'summarize' %}selected{% endif %}>Summarize Text</option>
+            <option value="creative" {% if selected_task == 'creative' %}selected{% endif %}>Generate Creative Content</option>
+        </select><br>
+
+        <button type="submit">Talk to AI</button>
+    </form>
+
+    {% if response %}
+        <div class="response-box">
+            <h3>AI Response:</h3>
+            <p>{{ response }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
